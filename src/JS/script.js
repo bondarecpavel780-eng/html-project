@@ -7,7 +7,7 @@ btn.addEventListener('click', () => {
     
 });
 
-btn.addEventListener('mouse', () => {
+btn.addEventListener('mouseenter', () => {
     console.log("ok");
     
 });
