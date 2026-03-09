@@ -5,6 +5,7 @@
 }
 
 .container {
+  position: relative;
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -16,7 +17,7 @@
 }
 
 .title__colored {
-  color: yellow;
+  color: #f9bf3b;
   font-size: 41px;
   line-height: 41px;
 }
@@ -89,7 +90,7 @@
 }
 
 .promo__text span {
-  color: yellow;
+  color: #f9bf3b;
   text-transform: uppercase;
 }
 
@@ -156,10 +157,156 @@
   width: 100%;
 }
 
-.intensive__descr{
+.intensive__descr {
   margin-top: 15px;
-font-weight: 300;
-font-size: 16px;
-letter-spacing: 0px;
-text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.info {
+  background-color: #0f0b0b;
+  padding: 100px 0 140px 0;
+  min-height: 564px;
+}
+
+.info__title {
+  color: #f9bf3b;
+  font-size: 30px;
+  text-align: right;
+}
+
+.info__text {
+  position: relative;
+  margin-top: 19px;
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 16px;
+  text-align: right;
+  padding-left: 390px;
+  z-index: 2;
+}
+
+.info__text.medium {
+  font-weight: 700;
+}
+
+.info__img {
+  position: absolute;
+  top: 93px;
+  left: -83px;
+  z-index: 1;
+}
+
+.skills {
+  background: url("../img/secondary_bg.jpg") center center / cover no-repeat;
+  padding: 80 0 102 0;
+}
+
+.skills__title {
+  color: #efefef;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.skills__wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.skills__item {
+  width: 224px;
+}
+
+.skills__round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 118px;
+  height: 118px;
+  background-color: #f9bf3b;
+  border-radius: 100%;
+}
+
+.skills___desc {
+  margin-top: 18px;
+  color: #efefef;
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.present {
+  display: block;
+  margin: 0 auto;
+  margin-top: 70px;
+  width: 155px;
+  height: 150px;
+}
+
+.present__info {
+  font-weight: 600;
+  font-style: Medium;
+  font-size: 30px;
+  line-height: 150%;
+  text-align: center;
+  color: #252525;
+  margin-top: 50px;
+}
+
+.gift .btn {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.event {
+  background: #0f0b0b;
+}
+.radio {
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.webinar {
+  margin-top: 40px;
+  color: #ffffff;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 30px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.date {
+  color: #f9bf3b;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.info__info {
+  margin-top: 15px;
+  padding-bottom: 40px;
+  color: #efefef;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 23px;
+  line-height: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+footer {
+  background: #1A1A1A;
+  text-align: center;
+  padding: 40px 0 40px 0;
+  color: #888888;
+
 }
