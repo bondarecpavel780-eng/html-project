@@ -1,7 +1,33 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+:root {
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, figure, p, ol, ul {
+  margin: 0;
+}
+
+ol[role="list"], ul[role="list"] {
+  list-style: none;
+  padding-inline: 0;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -54,7 +80,6 @@
 }
 
 .logo__img {
-  display: block;
   margin: 0 auto;
 }
 
@@ -106,7 +131,6 @@
 }
 
 .promo__more-img {
-  display: block;
   margin: 10px auto 0 auto;
 }
 .intensive {
@@ -193,6 +217,9 @@
 }
 
 .info__img {
+  width: 615px;
+  height: 350px;
+  object-fit: cover;
   position: absolute;
   top: 93px;
   left: -83px;
@@ -231,6 +258,10 @@
   border-radius: 100%;
 }
 
+.skills__img {
+  max-width: 60px;
+}
+
 .skills___desc {
   margin-top: 18px;
   color: #efefef;
@@ -240,7 +271,6 @@
 }
 
 .present {
-  display: block;
   margin: 0 auto;
   margin-top: 70px;
   width: 155px;
@@ -260,13 +290,13 @@
 .gift .btn {
   margin-top: 50px;
   margin-bottom: 70px;
+  border: none;
 }
 
 .event {
   background: #0f0b0b;
 }
 .radio {
-  display: block;
   margin: 0 auto;
   padding-top: 50px;
 }
@@ -304,9 +334,8 @@
 }
 
 footer {
-  background: #1A1A1A;
+  background: #1a1a1a;
   text-align: center;
   padding: 40px 0 40px 0;
   color: #888888;
-
-}
+} 
